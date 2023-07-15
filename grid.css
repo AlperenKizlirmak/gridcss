@@ -1,0 +1,65 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+}
+.container{
+ height: 100%;
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: 25vh repeat(3 calc(25vh - 0.5rem));
+  gap: 0.5rem 1rem;
+}
+
+html{
+ height:100%;
+}
+
+.content {
+ background-color: beige;
+ border: 2px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.content7{
+ overflow: auto;
+}
+ .content9{
+  background-image: url("https: //leadergamer.com.tr/app/uploads/2017/07/nfsp-botw-chevy-bel-air-05-2x.jpg.adapt_.crop16x9.1455w.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+ }
+ .content content1{
+  background-image: url("golf1gti.jpg");
+ }
+
+.content content2 {
+   background-image: url("datsun.jpg");
+}
+.content content3 { 
+background-image: url("belair.jpg");
+}
+.content content4 { 
+background-image: url("mustang.jpg");
+}
+ .content content5 {
+   background-image: url("scooby.jpg");
+ }
+.content content6 {
+ background-image: url("s4.jpg");
+ }
+ .content content7 {
+ background-image: url("2.8rsr1.jpg");
+ }
+.content content8 {
+background-image: url("933.jpg");
+}
+.content .content9 {
+ background-image: url("lotus.jpg");
+}
+.c7 iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
